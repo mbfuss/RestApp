@@ -8,7 +8,7 @@ import java.util.List;
 public interface BookService {
 
     // Создает новую книгу
-    void create(Book book, String isbn);
+    void create(Book book);
 
     // Возвращает список всех имеющихся книг
     List<Book> readALL();
